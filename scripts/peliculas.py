@@ -68,9 +68,8 @@ for i in range(len(link_peliculas)):
     
     print('\n------------------------------------------------------------')    
     print('Pelicula: ',titulo, ', Duracion:', duracion, ', Año:', año,  ', Sinopsis:', descripcion,  ', Genero:', genero,  ', Actores:', actores, ', Link: ',link_pelicula_final)
-    print('Datos de ',titulo, ' cargados')
-    print('\nRestan: ', len(link_peliculas) - count, ' Peliculas')        
-    print('------------------------------------------------------------') 
+    print('\nFaltan: ', len(link_peliculas) - count, ' Peliculas')        
+    print('--------------------------------------------------------------') 
 
 # Guardo los datos obtenidos en un Json, luego lo paso a csv y por ultimo hago la conexcion a la base de datos.
 

@@ -132,9 +132,8 @@ for i in range(len(link_series)):
 
         print('\n------------------------------------------------------------')    
         print('Serie: ',titulo, ', Capitulos:', caps, ', Nombre del capitulo:', nom_text,  ', Duracion y Fecha:', dura_text,  ', Sinopsis del capitulo:', desc_text,  ', Link:', link_serie_final)
-        print('Datos de ',titulo, ' cargados')
-        print('\nRestan: ', len(link_series) - count, ' series')        
-        print('------------------------------------------------------------') 
+        print('\nFaltan: ', len(link_series) - count, ' series')        
+        print('--------------------------------------------------------------') 
 
     except:
         print("No se encontro el elemento")
