@@ -1,0 +1,5 @@
+pandas version: 1.5.2
+
+selenium version: 4.18.1
+
+bs4 version: 0.0.2
